@@ -31,7 +31,7 @@ namespace TicTacToe
                 {
                     Btnvalue = "X";
                 }
-                //Vertical Pattern
+                // Vertical Pattern
                 if (Btn1.Text == Btn2.Text)
                 {
                     if (Btn2.Text == Btn3.Text)
@@ -47,7 +47,7 @@ namespace TicTacToe
                         Btn8.Text = "";
                         Btn9.Text = "";
                     }     
-                    //Horizontal Pattern
+                    // Horizontal Pattern
                 }
                 else if (Btn1.Text == Btn4.Text)
                 {
@@ -64,7 +64,7 @@ namespace TicTacToe
                         Btn8.Text = "";
                         Btn9.Text = "";
                     }
-                    //Diagonal Pattern
+                    // Diagonal Pattern
                 }
                 else if (Btn1.Text == Btn5.Text)
                 {
@@ -98,7 +98,7 @@ namespace TicTacToe
                 {
                     Btnvalue = "X";
                 }
-                //Vertical Line Pattern
+                // Vertical Line Pattern
                 if (Btn2.Text == Btn3.Text)
                 {
                     if (Btn3.Text == Btn1.Text)
@@ -115,7 +115,7 @@ namespace TicTacToe
                         Btn9.Text = "";
                     }
                 }
-                //Horizontal Pattern
+                // Horizontal Pattern
                 else if (Btn2.Text == Btn5.Text)
                 {
                     if (Btn5.Text == Btn8.Text)
@@ -148,7 +148,7 @@ namespace TicTacToe
                 {
                     Btnvalue = "X";
                 }
-                //Vertical Pattern
+                // Vertical Pattern
                 if (Btn3.Text == Btn2.Text)
                 {
                     if (Btn2.Text == Btn1.Text)
@@ -164,7 +164,7 @@ namespace TicTacToe
                         Btn8.Text = "";
                         Btn9.Text = "";
                     }
-                } //Horizontal Pattern
+                } // Horizontal Pattern
                 else if (Btn3.Text == Btn6.Text)
                 {
                     if (Btn6.Text == Btn9.Text)
@@ -180,7 +180,7 @@ namespace TicTacToe
                         Btn8.Text = "";
                         Btn9.Text = "";
                     }
-                } //Diagonal Pattern
+                } // Diagonal Pattern
                 else if (Btn3.Text == Btn5.Text)
                 {
                     if (Btn5.Text == Btn7.Text)
@@ -213,7 +213,7 @@ namespace TicTacToe
                 {
                     Btnvalue = "X";
                 }
-                //Vertical Pattern
+                // Vertical Pattern
                 if (Btn4.Text == Btn5.Text)
                 {
                     if (Btn5.Text == Btn6.Text)
@@ -229,7 +229,7 @@ namespace TicTacToe
                         Btn8.Text = "";
                         Btn9.Text = "";
                     }
-                } //Horizontal Pattern
+                } // Horizontal Pattern
                 else if (Btn4.Text == Btn7.Text)
                 {
                     if (Btn7.Text == Btn1.Text)
@@ -262,7 +262,7 @@ namespace TicTacToe
                 {
                     Btnvalue = "X";
                 }
-                //Vertical Pattern
+                // Vertical Pattern
                 if (Btn5.Text == Btn6.Text)
                 {
                     if (Btn6.Text == Btn4.Text)
@@ -278,7 +278,7 @@ namespace TicTacToe
                         Btn8.Text = "";
                         Btn9.Text = "";
                     }
-                } //Horizontal Pattern
+                } // Horizontal Pattern
                 else if (Btn5.Text == Btn8.Text)
                 {
                     if (Btn8.Text == Btn2.Text)
@@ -294,7 +294,7 @@ namespace TicTacToe
                         Btn8.Text = "";
                         Btn9.Text = "";
                     }
-                } //Diagonal Pattern
+                } // Diagonal Pattern
                 else if (Btn5.Text == Btn9.Text)
                 {
                     if (Btn9.Text == Btn1.Text)
@@ -327,11 +327,28 @@ namespace TicTacToe
                 {
                     Btnvalue = "X";
                 }
+                // Vertical Pattern
                 if (Btn6.Text == Btn5.Text)
                 {
                     if (Btn5.Text == Btn4.Text)
                     {
-                        MessageBox.Show("You win " + Btn1.Text);
+                        MessageBox.Show("You win " + Btn6.Text);
+                        Btn1.Text = "";
+                        Btn2.Text = "";
+                        Btn3.Text = "";
+                        Btn4.Text = "";
+                        Btn5.Text = "";
+                        Btn6.Text = "";
+                        Btn7.Text = "";
+                        Btn8.Text = "";
+                        Btn9.Text = "";
+                    }
+                } // Horizontal Pattern
+                else if (Btn6.Text == Btn9.Text)
+                {
+                    if (Btn9.Text == Btn3.Text)
+                    {
+                        MessageBox.Show("You win " + Btn6.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
