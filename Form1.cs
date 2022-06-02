@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace TicTacToe
 {
-    public partial class Form1 : Form
+    public partial class Frm1 : Form
     {
         String Btnvalue = "X";
-        public Form1()
+        public Frm1()
         {
             InitializeComponent();
         }
@@ -82,6 +82,7 @@ namespace TicTacToe
                         Btn9.Text = "";
                     }
                 }
+
             }
         }
 
@@ -544,7 +545,7 @@ namespace TicTacToe
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("This TicTacToe was made by Jose Alver H. Estacion");
+            MessageBox.Show("This TicTacToe was made by Jose Alver H. Estacion", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information); 
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -558,6 +559,16 @@ namespace TicTacToe
             Btn7.Text = "";
             Btn8.Text = "";
             Btn9.Text = "";
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
