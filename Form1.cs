@@ -31,6 +31,7 @@ namespace TicTacToe
                 {
                     Btnvalue = "X";
                 }
+                //Vertical Pattern
                 if (Btn1.Text == Btn2.Text)
                 {
                     if (Btn2.Text == Btn3.Text)
@@ -45,7 +46,8 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
-                    }                    
+                    }     
+                    //Horizontal Pattern
                 }
                 else if (Btn1.Text == Btn4.Text)
                 {
@@ -62,6 +64,7 @@ namespace TicTacToe
                         Btn8.Text = "";
                         Btn9.Text = "";
                     }
+                    //Diagonal Pattern
                 }
                 else if (Btn1.Text == Btn5.Text)
                 {
@@ -95,11 +98,29 @@ namespace TicTacToe
                 {
                     Btnvalue = "X";
                 }
+                //Vertical Line Pattern
                 if (Btn2.Text == Btn3.Text)
                 {
                     if (Btn3.Text == Btn1.Text)
                     {
-                        MessageBox.Show("You win " + Btn1.Text);
+                        MessageBox.Show("You win " + Btn2.Text);
+                        Btn1.Text = "";
+                        Btn2.Text = "";
+                        Btn3.Text = "";
+                        Btn4.Text = "";
+                        Btn5.Text = "";
+                        Btn6.Text = "";
+                        Btn7.Text = "";
+                        Btn8.Text = "";
+                        Btn9.Text = "";
+                    }
+                }
+                //Horizontal Pattern
+                else if (Btn2.Text == Btn5.Text)
+                {
+                    if (Btn5.Text == Btn8.Text)
+                    {
+                        MessageBox.Show("You win " + Btn2.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
