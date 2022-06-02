@@ -13,6 +13,7 @@ namespace TicTacToe
     public partial class Frm1 : Form
     {
         String Btnvalue = "X";
+        int counter = 0;
         public Frm1()
         {
             InitializeComponent();
@@ -46,7 +47,8 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
-                    }     
+                        counter = 0;
+                    }
                     // Horizontal Pattern
                 }
                 else if (Btn1.Text == Btn4.Text)
@@ -63,6 +65,7 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
                     // Diagonal Pattern
                 }
@@ -80,9 +83,24 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
                 }
-
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("Draw");
+                    Btn1.Text = "";
+                    Btn2.Text = "";
+                    Btn3.Text = "";
+                    Btn4.Text = "";
+                    Btn5.Text = "";
+                    Btn6.Text = "";
+                    Btn7.Text = "";
+                    Btn8.Text = "";
+                    Btn9.Text = "";
+                    counter = 0;
+                }
             }
         }
 
@@ -114,6 +132,7 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
                 }
                 // Horizontal Pattern
@@ -131,7 +150,23 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("Draw");
+                    Btn1.Text = "";
+                    Btn2.Text = "";
+                    Btn3.Text = "";
+                    Btn4.Text = "";
+                    Btn5.Text = "";
+                    Btn6.Text = "";
+                    Btn7.Text = "";
+                    Btn8.Text = "";
+                    Btn9.Text = "";
+                    counter = 0;
                 }
             }
         }
@@ -164,6 +199,7 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
                 } // Horizontal Pattern
                 else if (Btn3.Text == Btn6.Text)
@@ -180,6 +216,7 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
                 } // Diagonal Pattern
                 else if (Btn3.Text == Btn5.Text)
@@ -196,7 +233,23 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("Draw");
+                    Btn1.Text = "";
+                    Btn2.Text = "";
+                    Btn3.Text = "";
+                    Btn4.Text = "";
+                    Btn5.Text = "";
+                    Btn6.Text = "";
+                    Btn7.Text = "";
+                    Btn8.Text = "";
+                    Btn9.Text = "";
+                    counter = 0;
                 }
             }
         }
@@ -229,6 +282,7 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
                 } // Horizontal Pattern
                 else if (Btn4.Text == Btn7.Text)
@@ -245,8 +299,24 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
-                } 
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("Draw");
+                    Btn1.Text = "";
+                    Btn2.Text = "";
+                    Btn3.Text = "";
+                    Btn4.Text = "";
+                    Btn5.Text = "";
+                    Btn6.Text = "";
+                    Btn7.Text = "";
+                    Btn8.Text = "";
+                    Btn9.Text = "";
+                    counter = 0;
+                }
             }
         }
 
@@ -278,6 +348,7 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
                 } // Horizontal Pattern
                 else if (Btn5.Text == Btn8.Text)
@@ -294,6 +365,7 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
                 } // Diagonal Pattern
                 else if (Btn5.Text == Btn9.Text)
@@ -310,7 +382,23 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("Draw");
+                    Btn1.Text = "";
+                    Btn2.Text = "";
+                    Btn3.Text = "";
+                    Btn4.Text = "";
+                    Btn5.Text = "";
+                    Btn6.Text = "";
+                    Btn7.Text = "";
+                    Btn8.Text = "";
+                    Btn9.Text = "";
+                    counter = 0;
                 }
             }
         }
@@ -343,6 +431,7 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
                 } // Horizontal Pattern
                 else if (Btn6.Text == Btn9.Text)
@@ -359,7 +448,23 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("Draw");
+                    Btn1.Text = "";
+                    Btn2.Text = "";
+                    Btn3.Text = "";
+                    Btn4.Text = "";
+                    Btn5.Text = "";
+                    Btn6.Text = "";
+                    Btn7.Text = "";
+                    Btn8.Text = "";
+                    Btn9.Text = "";
+                    counter = 0;
                 }
             }
         }
@@ -392,6 +497,7 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
                 } // Horizontal Pattern
                 else if (Btn7.Text == Btn4.Text)
@@ -408,6 +514,7 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
                 } // Diagonal Pattern
                 else if (Btn7.Text == Btn5.Text)
@@ -424,7 +531,23 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("Draw");
+                    Btn1.Text = "";
+                    Btn2.Text = "";
+                    Btn3.Text = "";
+                    Btn4.Text = "";
+                    Btn5.Text = "";
+                    Btn6.Text = "";
+                    Btn7.Text = "";
+                    Btn8.Text = "";
+                    Btn9.Text = "";
+                    counter = 0;
                 }
             }
         }
@@ -457,6 +580,7 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
                 } // Horizontal Pattern
                 else if (Btn8.Text == Btn5.Text)
@@ -473,7 +597,23 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("Draw");
+                    Btn1.Text = "";
+                    Btn2.Text = "";
+                    Btn3.Text = "";
+                    Btn4.Text = "";
+                    Btn5.Text = "";
+                    Btn6.Text = "";
+                    Btn7.Text = "";
+                    Btn8.Text = "";
+                    Btn9.Text = "";
+                    counter = 0;
                 }
             }
         }
@@ -506,6 +646,7 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
                 } // Horizontal Pattern
                 else if (Btn9.Text == Btn6.Text)
@@ -522,6 +663,7 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
                 } // Diagonal Pattern
                 else if (Btn9.Text == Btn5.Text)
@@ -538,7 +680,23 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
+                        counter = 0;
                     }
+                }
+                counter = counter + 1;
+                if (counter == 9)
+                {
+                    MessageBox.Show("Draw");
+                    Btn1.Text = "";
+                    Btn2.Text = "";
+                    Btn3.Text = "";
+                    Btn4.Text = "";
+                    Btn5.Text = "";
+                    Btn6.Text = "";
+                    Btn7.Text = "";
+                    Btn8.Text = "";
+                    Btn9.Text = "";
+                    counter = 0;
                 }
             }
         }
