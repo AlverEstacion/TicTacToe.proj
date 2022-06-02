@@ -49,5 +49,117 @@ namespace TicTacToe
                 }
             }
         }
+
+        private void Btn3_Click(object sender, EventArgs e)
+        {
+            if (Btn3.Text == "")
+            {
+                Btn3.Text = Btnvalue;
+                if (Btnvalue == "X")
+                {
+                    Btnvalue = "O";
+                }
+                else
+                {
+                    Btnvalue = "X";
+                }
+            }
+        }
+
+        private void Btn4_Click(object sender, EventArgs e)
+        {
+            if (Btn4.Text == "")
+            {
+                Btn4.Text = Btnvalue;
+                if (Btnvalue == "X")
+                {
+                    Btnvalue = "O";
+                }
+                else
+                {
+                    Btnvalue = "X";
+                }
+            }
+        }
+
+        private void Btn5_Click(object sender, EventArgs e)
+        {
+            if (Btn5.Text == "")
+            {
+                Btn5.Text = Btnvalue;
+                if (Btnvalue == "X")
+                {
+                    Btnvalue = "O";
+                }
+                else
+                {
+                    Btnvalue = "X";
+                }
+            }
+        }
+
+        private void Btn6_Click(object sender, EventArgs e)
+        {
+            if (Btn6.Text == "")
+            {
+                Btn6.Text = Btnvalue;
+                if (Btnvalue == "X")
+                {
+                    Btnvalue = "O";
+                }
+                else
+                {
+                    Btnvalue = "X";
+                }
+            }
+        }
+
+        private void Btn7_Click(object sender, EventArgs e)
+        {
+            if (Btn7.Text == "")
+            {
+                Btn7.Text = Btnvalue;
+                if (Btnvalue == "X")
+                {
+                    Btnvalue = "O";
+                }
+                else
+                {
+                    Btnvalue = "X";
+                }
+            }
+        }
+
+        private void Btn8_Click(object sender, EventArgs e)
+        {
+            if (Btn8.Text == "")
+            {
+                Btn8.Text = Btnvalue;
+                if (Btnvalue == "X")
+                {
+                    Btnvalue = "O";
+                }
+                else
+                {
+                    Btnvalue = "X";
+                }
+            }
+        }
+
+        private void Btn9_Click(object sender, EventArgs e)
+        {
+            if (Btn9.Text == "")
+            {
+                Btn9.Text = Btnvalue;
+                if (Btnvalue == "X")
+                {
+                    Btnvalue = "O";
+                }
+                else
+                {
+                    Btnvalue = "X";
+                }
+            }
+        }
     }
 }

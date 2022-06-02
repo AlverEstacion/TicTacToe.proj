@@ -65,6 +65,7 @@
             this.Btn3.Size = new System.Drawing.Size(96, 94);
             this.Btn3.TabIndex = 2;
             this.Btn3.UseVisualStyleBackColor = true;
+            this.Btn3.Click += new System.EventHandler(this.Btn3_Click);
             // 
             // Btn4
             // 
@@ -73,6 +74,7 @@
             this.Btn4.Size = new System.Drawing.Size(96, 94);
             this.Btn4.TabIndex = 3;
             this.Btn4.UseVisualStyleBackColor = true;
+            this.Btn4.Click += new System.EventHandler(this.Btn4_Click);
             // 
             // Btn5
             // 
@@ -81,6 +83,7 @@
             this.Btn5.Size = new System.Drawing.Size(96, 94);
             this.Btn5.TabIndex = 4;
             this.Btn5.UseVisualStyleBackColor = true;
+            this.Btn5.Click += new System.EventHandler(this.Btn5_Click);
             // 
             // Btn6
             // 
@@ -89,6 +92,7 @@
             this.Btn6.Size = new System.Drawing.Size(96, 94);
             this.Btn6.TabIndex = 5;
             this.Btn6.UseVisualStyleBackColor = true;
+            this.Btn6.Click += new System.EventHandler(this.Btn6_Click);
             // 
             // Btn9
             // 
@@ -97,6 +101,7 @@
             this.Btn9.Size = new System.Drawing.Size(96, 94);
             this.Btn9.TabIndex = 8;
             this.Btn9.UseVisualStyleBackColor = true;
+            this.Btn9.Click += new System.EventHandler(this.Btn9_Click);
             // 
             // Btn8
             // 
@@ -105,6 +110,7 @@
             this.Btn8.Size = new System.Drawing.Size(96, 94);
             this.Btn8.TabIndex = 7;
             this.Btn8.UseVisualStyleBackColor = true;
+            this.Btn8.Click += new System.EventHandler(this.Btn8_Click);
             // 
             // Btn7
             // 
@@ -113,6 +119,7 @@
             this.Btn7.Size = new System.Drawing.Size(96, 94);
             this.Btn7.TabIndex = 6;
             this.Btn7.UseVisualStyleBackColor = true;
+            this.Btn7.Click += new System.EventHandler(this.Btn7_Click);
             // 
             // Form1
             // 
