@@ -31,6 +31,22 @@ namespace TicTacToe
                 {
                     Btnvalue = "X";
                 }
+                if (Btn1.Text == Btn2.Text)
+                {
+                    if (Btn2.Text == Btn3.Text)
+                    {
+                        MessageBox.Show("You win " + Btn1.Text);
+                        Btn1.Text = "";
+                        Btn2.Text = "";
+                        Btn3.Text = "";
+                        Btn4.Text = "";
+                        Btn5.Text = "";
+                        Btn6.Text = "";
+                        Btn7.Text = "";
+                        Btn8.Text = "";
+                        Btn9.Text = "";
+                    } 
+                }
             }
         }
 
@@ -46,6 +62,22 @@ namespace TicTacToe
                 else
                 {
                     Btnvalue = "X";
+                }
+                if (Btn2.Text == Btn3.Text)
+                {
+                    if (Btn3.Text == Btn1.Text)
+                    {
+                        MessageBox.Show("You win " + Btn1.Text);
+                        Btn1.Text = "";
+                        Btn2.Text = "";
+                        Btn3.Text = "";
+                        Btn4.Text = "";
+                        Btn5.Text = "";
+                        Btn6.Text = "";
+                        Btn7.Text = "";
+                        Btn8.Text = "";
+                        Btn9.Text = "";
+                    }
                 }
             }
         }
@@ -63,6 +95,22 @@ namespace TicTacToe
                 {
                     Btnvalue = "X";
                 }
+                if (Btn3.Text == Btn2.Text)
+                {
+                    if (Btn2.Text == Btn1.Text)
+                    {
+                        MessageBox.Show("You win " + Btn1.Text);
+                        Btn1.Text = "";
+                        Btn2.Text = "";
+                        Btn3.Text = "";
+                        Btn4.Text = "";
+                        Btn5.Text = "";
+                        Btn6.Text = "";
+                        Btn7.Text = "";
+                        Btn8.Text = "";
+                        Btn9.Text = "";
+                    }
+                }
             }
         }
 
@@ -78,6 +126,22 @@ namespace TicTacToe
                 else
                 {
                     Btnvalue = "X";
+                }
+                if (Btn4.Text == Btn5.Text)
+                {
+                    if (Btn5.Text == Btn6.Text)
+                    {
+                        MessageBox.Show("You win " + Btn1.Text);
+                        Btn1.Text = "";
+                        Btn2.Text = "";
+                        Btn3.Text = "";
+                        Btn4.Text = "";
+                        Btn5.Text = "";
+                        Btn6.Text = "";
+                        Btn7.Text = "";
+                        Btn8.Text = "";
+                        Btn9.Text = "";
+                    }
                 }
             }
         }
@@ -95,6 +159,22 @@ namespace TicTacToe
                 {
                     Btnvalue = "X";
                 }
+                if (Btn5.Text == Btn6.Text)
+                {
+                    if (Btn6.Text == Btn4.Text)
+                    {
+                        MessageBox.Show("You win " + Btn1.Text);
+                        Btn1.Text = "";
+                        Btn2.Text = "";
+                        Btn3.Text = "";
+                        Btn4.Text = "";
+                        Btn5.Text = "";
+                        Btn6.Text = "";
+                        Btn7.Text = "";
+                        Btn8.Text = "";
+                        Btn9.Text = "";
+                    }
+                }
             }
         }
 
@@ -110,6 +190,22 @@ namespace TicTacToe
                 else
                 {
                     Btnvalue = "X";
+                }
+                if (Btn6.Text == Btn5.Text)
+                {
+                    if (Btn5.Text == Btn4.Text)
+                    {
+                        MessageBox.Show("You win " + Btn1.Text);
+                        Btn1.Text = "";
+                        Btn2.Text = "";
+                        Btn3.Text = "";
+                        Btn4.Text = "";
+                        Btn5.Text = "";
+                        Btn6.Text = "";
+                        Btn7.Text = "";
+                        Btn8.Text = "";
+                        Btn9.Text = "";
+                    }
                 }
             }
         }
@@ -127,6 +223,22 @@ namespace TicTacToe
                 {
                     Btnvalue = "X";
                 }
+                if (Btn7.Text == Btn8.Text)
+                {
+                    if (Btn8.Text == Btn9.Text)
+                    {
+                        MessageBox.Show("You win " + Btn1.Text);
+                        Btn1.Text = "";
+                        Btn2.Text = "";
+                        Btn3.Text = "";
+                        Btn4.Text = "";
+                        Btn5.Text = "";
+                        Btn6.Text = "";
+                        Btn7.Text = "";
+                        Btn8.Text = "";
+                        Btn9.Text = "";
+                    }
+                }
             }
         }
 
@@ -143,6 +255,22 @@ namespace TicTacToe
                 {
                     Btnvalue = "X";
                 }
+                if (Btn8.Text == Btn9.Text)
+                {
+                    if (Btn9.Text == Btn7.Text)
+                    {
+                        MessageBox.Show("You win " + Btn1.Text);
+                        Btn1.Text = "";
+                        Btn2.Text = "";
+                        Btn3.Text = "";
+                        Btn4.Text = "";
+                        Btn5.Text = "";
+                        Btn6.Text = "";
+                        Btn7.Text = "";
+                        Btn8.Text = "";
+                        Btn9.Text = "";
+                    }
+                }
             }
         }
 
@@ -158,6 +286,22 @@ namespace TicTacToe
                 else
                 {
                     Btnvalue = "X";
+                }
+                if (Btn9.Text == Btn8.Text)
+                {
+                    if (Btn8.Text == Btn7.Text)
+                    {
+                        MessageBox.Show("You win " + Btn1.Text);
+                        Btn1.Text = "";
+                        Btn2.Text = "";
+                        Btn3.Text = "";
+                        Btn4.Text = "";
+                        Btn5.Text = "";
+                        Btn6.Text = "";
+                        Btn7.Text = "";
+                        Btn8.Text = "";
+                        Btn9.Text = "";
+                    }
                 }
             }
         }
