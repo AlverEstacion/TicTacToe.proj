@@ -376,11 +376,44 @@ namespace TicTacToe
                 {
                     Btnvalue = "X";
                 }
+                // Vertical Pattern
                 if (Btn7.Text == Btn8.Text)
                 {
                     if (Btn8.Text == Btn9.Text)
                     {
-                        MessageBox.Show("You win " + Btn1.Text);
+                        MessageBox.Show("You win " + Btn7.Text);
+                        Btn1.Text = "";
+                        Btn2.Text = "";
+                        Btn3.Text = "";
+                        Btn4.Text = "";
+                        Btn5.Text = "";
+                        Btn6.Text = "";
+                        Btn7.Text = "";
+                        Btn8.Text = "";
+                        Btn9.Text = "";
+                    }
+                } // Horizontal Pattern
+                else if (Btn7.Text == Btn4.Text)
+                {
+                    if (Btn4.Text == Btn1.Text)
+                    {
+                        MessageBox.Show("You win " + Btn7.Text);
+                        Btn1.Text = "";
+                        Btn2.Text = "";
+                        Btn3.Text = "";
+                        Btn4.Text = "";
+                        Btn5.Text = "";
+                        Btn6.Text = "";
+                        Btn7.Text = "";
+                        Btn8.Text = "";
+                        Btn9.Text = "";
+                    }
+                } // Diagonal Pattern
+                else if (Btn7.Text == Btn5.Text)
+                {
+                    if (Btn5.Text == Btn3.Text)
+                    {
+                        MessageBox.Show("You win " + Btn7.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
