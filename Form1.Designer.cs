@@ -39,6 +39,7 @@
             this.Btn8 = new System.Windows.Forms.Button();
             this.Btn7 = new System.Windows.Forms.Button();
             this.xtrabtn = new System.Windows.Forms.Button();
+            this.ResetBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Btn1
@@ -142,12 +143,23 @@
             this.xtrabtn.UseVisualStyleBackColor = true;
             this.xtrabtn.Click += new System.EventHandler(this.button1_Click);
             // 
+            // ResetBtn
+            // 
+            this.ResetBtn.Location = new System.Drawing.Point(12, 41);
+            this.ResetBtn.Name = "ResetBtn";
+            this.ResetBtn.Size = new System.Drawing.Size(75, 23);
+            this.ResetBtn.TabIndex = 10;
+            this.ResetBtn.Text = "Reset";
+            this.ResetBtn.UseVisualStyleBackColor = true;
+            this.ResetBtn.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(400, 428);
+            this.ClientSize = new System.Drawing.Size(414, 427);
+            this.Controls.Add(this.ResetBtn);
             this.Controls.Add(this.xtrabtn);
             this.Controls.Add(this.Btn9);
             this.Controls.Add(this.Btn8);
@@ -180,6 +192,7 @@
         private System.Windows.Forms.Button Btn8;
         private System.Windows.Forms.Button Btn7;
         private System.Windows.Forms.Button xtrabtn;
+        private System.Windows.Forms.Button ResetBtn;
     }
 }
 
