@@ -337,6 +337,11 @@ namespace TicTacToe
                 }
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("This TicTacToe was made by Jose Alver H. Estacion");
+        }
     }
 }
 
