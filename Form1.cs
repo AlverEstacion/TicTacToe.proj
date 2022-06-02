@@ -506,6 +506,38 @@ namespace TicTacToe
                         Btn8.Text = "";
                         Btn9.Text = "";
                     }
+                } // Horizontal Pattern
+                else if (Btn9.Text == Btn6.Text)
+                {
+                    if (Btn6.Text == Btn3.Text)
+                    {
+                        MessageBox.Show("You win " + Btn9.Text);
+                        Btn1.Text = "";
+                        Btn2.Text = "";
+                        Btn3.Text = "";
+                        Btn4.Text = "";
+                        Btn5.Text = "";
+                        Btn6.Text = "";
+                        Btn7.Text = "";
+                        Btn8.Text = "";
+                        Btn9.Text = "";
+                    }
+                } // Diagonal Pattern
+                else if (Btn9.Text == Btn5.Text)
+                {
+                    if (Btn5.Text == Btn1.Text)
+                    {
+                        MessageBox.Show("You win " + Btn9.Text);
+                        Btn1.Text = "";
+                        Btn2.Text = "";
+                        Btn3.Text = "";
+                        Btn4.Text = "";
+                        Btn5.Text = "";
+                        Btn6.Text = "";
+                        Btn7.Text = "";
+                        Btn8.Text = "";
+                        Btn9.Text = "";
+                    }
                 }
             }
         }
