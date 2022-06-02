@@ -47,7 +47,7 @@ namespace TicTacToe
                         Btn9.Text = "";
                     }                    
                 }
-                if (Btn1.Text == Btn4.Text)
+                else if (Btn1.Text == Btn4.Text)
                 {
                     if (Btn4.Text == Btn7.Text)
                     {
@@ -63,7 +63,7 @@ namespace TicTacToe
                         Btn9.Text = "";
                     }
                 }
-                if (Btn1.Text == Btn5.Text)
+                else if (Btn1.Text == Btn5.Text)
                 {
                     if (Btn5.Text == Btn9.Text)
                     {

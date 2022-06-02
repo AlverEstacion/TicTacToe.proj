@@ -44,7 +44,7 @@
             // Btn1
             // 
             this.Btn1.Font = new System.Drawing.Font("Comic Sans MS", 54F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn1.Location = new System.Drawing.Point(28, 93);
+            this.Btn1.Location = new System.Drawing.Point(31, 78);
             this.Btn1.Name = "Btn1";
             this.Btn1.Size = new System.Drawing.Size(96, 90);
             this.Btn1.TabIndex = 0;
@@ -54,7 +54,7 @@
             // Btn2
             // 
             this.Btn2.Font = new System.Drawing.Font("Comic Sans MS", 54.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn2.Location = new System.Drawing.Point(28, 200);
+            this.Btn2.Location = new System.Drawing.Point(31, 185);
             this.Btn2.Name = "Btn2";
             this.Btn2.Size = new System.Drawing.Size(96, 94);
             this.Btn2.TabIndex = 1;
@@ -64,7 +64,7 @@
             // Btn3
             // 
             this.Btn3.Font = new System.Drawing.Font("Comic Sans MS", 54.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn3.Location = new System.Drawing.Point(28, 313);
+            this.Btn3.Location = new System.Drawing.Point(31, 298);
             this.Btn3.Name = "Btn3";
             this.Btn3.Size = new System.Drawing.Size(96, 94);
             this.Btn3.TabIndex = 2;
@@ -74,7 +74,7 @@
             // Btn4
             // 
             this.Btn4.Font = new System.Drawing.Font("Comic Sans MS", 54F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn4.Location = new System.Drawing.Point(152, 93);
+            this.Btn4.Location = new System.Drawing.Point(155, 78);
             this.Btn4.Name = "Btn4";
             this.Btn4.Size = new System.Drawing.Size(96, 90);
             this.Btn4.TabIndex = 3;
@@ -84,7 +84,7 @@
             // Btn5
             // 
             this.Btn5.Font = new System.Drawing.Font("Comic Sans MS", 54.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn5.Location = new System.Drawing.Point(152, 200);
+            this.Btn5.Location = new System.Drawing.Point(155, 185);
             this.Btn5.Name = "Btn5";
             this.Btn5.Size = new System.Drawing.Size(96, 94);
             this.Btn5.TabIndex = 4;
@@ -94,7 +94,7 @@
             // Btn6
             // 
             this.Btn6.Font = new System.Drawing.Font("Comic Sans MS", 54.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn6.Location = new System.Drawing.Point(152, 313);
+            this.Btn6.Location = new System.Drawing.Point(155, 298);
             this.Btn6.Name = "Btn6";
             this.Btn6.Size = new System.Drawing.Size(96, 94);
             this.Btn6.TabIndex = 5;
@@ -104,7 +104,7 @@
             // Btn9
             // 
             this.Btn9.Font = new System.Drawing.Font("Comic Sans MS", 54.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn9.Location = new System.Drawing.Point(278, 313);
+            this.Btn9.Location = new System.Drawing.Point(281, 298);
             this.Btn9.Name = "Btn9";
             this.Btn9.Size = new System.Drawing.Size(96, 94);
             this.Btn9.TabIndex = 8;
@@ -114,7 +114,7 @@
             // Btn8
             // 
             this.Btn8.Font = new System.Drawing.Font("Comic Sans MS", 54.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn8.Location = new System.Drawing.Point(278, 200);
+            this.Btn8.Location = new System.Drawing.Point(281, 185);
             this.Btn8.Name = "Btn8";
             this.Btn8.Size = new System.Drawing.Size(96, 94);
             this.Btn8.TabIndex = 7;
@@ -124,7 +124,7 @@
             // Btn7
             // 
             this.Btn7.Font = new System.Drawing.Font("Comic Sans MS", 54F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn7.Location = new System.Drawing.Point(278, 93);
+            this.Btn7.Location = new System.Drawing.Point(281, 78);
             this.Btn7.Name = "Btn7";
             this.Btn7.Size = new System.Drawing.Size(96, 90);
             this.Btn7.TabIndex = 6;
@@ -136,7 +136,7 @@
             this.xtrabtn.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.xtrabtn.Location = new System.Drawing.Point(12, 12);
             this.xtrabtn.Name = "xtrabtn";
-            this.xtrabtn.Size = new System.Drawing.Size(60, 27);
+            this.xtrabtn.Size = new System.Drawing.Size(60, 23);
             this.xtrabtn.TabIndex = 9;
             this.xtrabtn.Text = "About";
             this.xtrabtn.UseVisualStyleBackColor = true;
