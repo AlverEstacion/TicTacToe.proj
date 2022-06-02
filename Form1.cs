@@ -45,7 +45,39 @@ namespace TicTacToe
                         Btn7.Text = "";
                         Btn8.Text = "";
                         Btn9.Text = "";
-                    } 
+                    }                    
+                }
+                if (Btn1.Text == Btn4.Text)
+                {
+                    if (Btn4.Text == Btn7.Text)
+                    {
+                        MessageBox.Show("You win " + Btn1.Text);
+                        Btn1.Text = "";
+                        Btn2.Text = "";
+                        Btn3.Text = "";
+                        Btn4.Text = "";
+                        Btn5.Text = "";
+                        Btn6.Text = "";
+                        Btn7.Text = "";
+                        Btn8.Text = "";
+                        Btn9.Text = "";
+                    }
+                }
+                if (Btn1.Text == Btn5.Text)
+                {
+                    if (Btn5.Text == Btn9.Text)
+                    {
+                        MessageBox.Show("You win " + Btn1.Text);
+                        Btn1.Text = "";
+                        Btn2.Text = "";
+                        Btn3.Text = "";
+                        Btn4.Text = "";
+                        Btn5.Text = "";
+                        Btn6.Text = "";
+                        Btn7.Text = "";
+                        Btn8.Text = "";
+                        Btn9.Text = "";
+                    }
                 }
             }
         }
@@ -307,3 +339,5 @@ namespace TicTacToe
         }
     }
 }
+
+
