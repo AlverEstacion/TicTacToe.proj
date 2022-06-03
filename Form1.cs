@@ -37,7 +37,7 @@ namespace TicTacToe
                 {
                     if (Btn2.Text == Btn3.Text)
                     {
-                        MessageBox.Show("You win " + Btn1.Text);
+                        MessageBox.Show("WINNER IS " + Btn1.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -55,7 +55,7 @@ namespace TicTacToe
                 {
                     if (Btn4.Text == Btn7.Text)
                     {
-                        MessageBox.Show("You win " + Btn1.Text);
+                        MessageBox.Show("WINNER IS " + Btn1.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -73,7 +73,7 @@ namespace TicTacToe
                 {
                     if (Btn5.Text == Btn9.Text)
                     {
-                        MessageBox.Show("You win " + Btn1.Text);
+                        MessageBox.Show("WINNER IS " + Btn1.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -89,7 +89,7 @@ namespace TicTacToe
                 counter = counter + 1;
                 if (counter == 9)
                 {
-                    MessageBox.Show("Draw");
+                    MessageBox.Show("IT'S A DRAW");
                     Btn1.Text = "";
                     Btn2.Text = "";
                     Btn3.Text = "";
@@ -122,7 +122,7 @@ namespace TicTacToe
                 {
                     if (Btn3.Text == Btn1.Text)
                     {
-                        MessageBox.Show("You win " + Btn2.Text);
+                        MessageBox.Show("WINNER IS " + Btn2.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -140,7 +140,7 @@ namespace TicTacToe
                 {
                     if (Btn5.Text == Btn8.Text)
                     {
-                        MessageBox.Show("You win " + Btn2.Text);
+                        MessageBox.Show("WINNER IS " + Btn2.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -156,7 +156,7 @@ namespace TicTacToe
                 counter = counter + 1;
                 if (counter == 9)
                 {
-                    MessageBox.Show("Draw");
+                    MessageBox.Show("IT'S A DRAW");
                     Btn1.Text = "";
                     Btn2.Text = "";
                     Btn3.Text = "";
@@ -189,7 +189,7 @@ namespace TicTacToe
                 {
                     if (Btn2.Text == Btn1.Text)
                     {
-                        MessageBox.Show("You win " + Btn3.Text);
+                        MessageBox.Show("WINNER IS " + Btn3.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -206,7 +206,7 @@ namespace TicTacToe
                 {
                     if (Btn6.Text == Btn9.Text)
                     {
-                        MessageBox.Show("You win " + Btn3.Text);
+                        MessageBox.Show("WINNER IS " + Btn3.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -223,7 +223,7 @@ namespace TicTacToe
                 {
                     if (Btn5.Text == Btn7.Text)
                     {
-                        MessageBox.Show("You win " + Btn3.Text);
+                        MessageBox.Show("WINNER IS " + Btn3.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -239,7 +239,7 @@ namespace TicTacToe
                 counter = counter + 1;
                 if (counter == 9)
                 {
-                    MessageBox.Show("Draw");
+                    MessageBox.Show("IT'S A DRAW");
                     Btn1.Text = "";
                     Btn2.Text = "";
                     Btn3.Text = "";
@@ -272,7 +272,7 @@ namespace TicTacToe
                 {
                     if (Btn5.Text == Btn6.Text)
                     {
-                        MessageBox.Show("You win " + Btn4.Text);
+                        MessageBox.Show("WINNER IS " + Btn4.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -289,7 +289,7 @@ namespace TicTacToe
                 {
                     if (Btn7.Text == Btn1.Text)
                     {
-                        MessageBox.Show("You win " + Btn4.Text);
+                        MessageBox.Show("WINNER IS " + Btn4.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -305,7 +305,7 @@ namespace TicTacToe
                 counter = counter + 1;
                 if (counter == 9)
                 {
-                    MessageBox.Show("Draw");
+                    MessageBox.Show("IT'S A DRAW");
                     Btn1.Text = "";
                     Btn2.Text = "";
                     Btn3.Text = "";
@@ -338,7 +338,7 @@ namespace TicTacToe
                 {
                     if (Btn6.Text == Btn4.Text)
                     {
-                        MessageBox.Show("You win " + Btn5.Text);
+                        MessageBox.Show("WINNER IS " + Btn5.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -355,7 +355,7 @@ namespace TicTacToe
                 {
                     if (Btn8.Text == Btn2.Text)
                     {
-                        MessageBox.Show("You win " + Btn5.Text);
+                        MessageBox.Show("WINNER IS " + Btn5.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -372,7 +372,25 @@ namespace TicTacToe
                 {
                     if (Btn9.Text == Btn1.Text)
                     {
-                        MessageBox.Show("You win " + Btn5.Text);
+                        MessageBox.Show("WINNER IS " + Btn5.Text);
+                        Btn1.Text = "";
+                        Btn2.Text = "";
+                        Btn3.Text = "";
+                        Btn4.Text = "";
+                        Btn5.Text = "";
+                        Btn6.Text = "";
+                        Btn7.Text = "";
+                        Btn8.Text = "";
+                        Btn9.Text = "";
+                        counter = 0;
+                    }
+                } // Diagonal Pattern 2
+                else if (Btn5.Text == Btn3.Text)
+                {
+                    if (Btn3.Text == Btn7.Text)
+                    {
+
+                        MessageBox.Show("WINNER IS " + Btn5.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -388,7 +406,7 @@ namespace TicTacToe
                 counter = counter + 1;
                 if (counter == 9)
                 {
-                    MessageBox.Show("Draw");
+                    MessageBox.Show("IT'S A DRAW");
                     Btn1.Text = "";
                     Btn2.Text = "";
                     Btn3.Text = "";
@@ -421,7 +439,7 @@ namespace TicTacToe
                 {
                     if (Btn5.Text == Btn4.Text)
                     {
-                        MessageBox.Show("You win " + Btn6.Text);
+                        MessageBox.Show("WINNER IS " + Btn6.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -438,7 +456,7 @@ namespace TicTacToe
                 {
                     if (Btn9.Text == Btn3.Text)
                     {
-                        MessageBox.Show("You win " + Btn6.Text);
+                        MessageBox.Show("WINNER IS " + Btn6.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -454,7 +472,7 @@ namespace TicTacToe
                 counter = counter + 1;
                 if (counter == 9)
                 {
-                    MessageBox.Show("Draw");
+                    MessageBox.Show("IT'S A DRAW");
                     Btn1.Text = "";
                     Btn2.Text = "";
                     Btn3.Text = "";
@@ -487,7 +505,7 @@ namespace TicTacToe
                 {
                     if (Btn8.Text == Btn9.Text)
                     {
-                        MessageBox.Show("You win " + Btn7.Text);
+                        MessageBox.Show("WINNER IS " + Btn7.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -504,7 +522,7 @@ namespace TicTacToe
                 {
                     if (Btn4.Text == Btn1.Text)
                     {
-                        MessageBox.Show("You win " + Btn7.Text);
+                        MessageBox.Show("WINNER IS " + Btn7.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -521,7 +539,7 @@ namespace TicTacToe
                 {
                     if (Btn5.Text == Btn3.Text)
                     {
-                        MessageBox.Show("You win " + Btn7.Text);
+                        MessageBox.Show("WINNER IS " + Btn7.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -537,7 +555,7 @@ namespace TicTacToe
                 counter = counter + 1;
                 if (counter == 9)
                 {
-                    MessageBox.Show("Draw");
+                    MessageBox.Show("IT'S A DRAW");
                     Btn1.Text = "";
                     Btn2.Text = "";
                     Btn3.Text = "";
@@ -570,7 +588,7 @@ namespace TicTacToe
                 {
                     if (Btn9.Text == Btn7.Text)
                     {
-                        MessageBox.Show("You win " + Btn8.Text);
+                        MessageBox.Show("WINNER IS " + Btn8.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -587,7 +605,7 @@ namespace TicTacToe
                 {
                     if (Btn5.Text == Btn2.Text)
                     {
-                        MessageBox.Show("You win " + Btn8.Text);
+                        MessageBox.Show("WINNER IS " + Btn8.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -603,7 +621,7 @@ namespace TicTacToe
                 counter = counter + 1;
                 if (counter == 9)
                 {
-                    MessageBox.Show("Draw");
+                    MessageBox.Show("IT'S A DRAW");
                     Btn1.Text = "";
                     Btn2.Text = "";
                     Btn3.Text = "";
@@ -636,7 +654,7 @@ namespace TicTacToe
                 {
                     if (Btn8.Text == Btn7.Text)
                     {
-                        MessageBox.Show("You win " + Btn9.Text);
+                        MessageBox.Show("WINNER IS " + Btn9.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -653,7 +671,7 @@ namespace TicTacToe
                 {
                     if (Btn6.Text == Btn3.Text)
                     {
-                        MessageBox.Show("You win " + Btn9.Text);
+                        MessageBox.Show("WINNER IS " + Btn9.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -670,7 +688,7 @@ namespace TicTacToe
                 {
                     if (Btn5.Text == Btn1.Text)
                     {
-                        MessageBox.Show("You win " + Btn9.Text);
+                        MessageBox.Show("WINNER IS " + Btn9.Text);
                         Btn1.Text = "";
                         Btn2.Text = "";
                         Btn3.Text = "";
@@ -686,7 +704,7 @@ namespace TicTacToe
                 counter = counter + 1;
                 if (counter == 9)
                 {
-                    MessageBox.Show("Draw");
+                    MessageBox.Show("IT'S A DRAW");
                     Btn1.Text = "";
                     Btn2.Text = "";
                     Btn3.Text = "";
@@ -717,16 +735,6 @@ namespace TicTacToe
             Btn7.Text = "";
             Btn8.Text = "";
             Btn9.Text = "";
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
