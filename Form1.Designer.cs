@@ -41,6 +41,7 @@
             this.xtrabtn = new System.Windows.Forms.Button();
             this.ResetBtn = new System.Windows.Forms.Button();
             this.lbl = new System.Windows.Forms.Label();
+            this.sndbtn = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // Btn1
@@ -190,6 +191,21 @@
             this.lbl.TabIndex = 11;
             this.lbl.Text = "TicTacToe";
             // 
+            // sndbtn
+            // 
+            this.sndbtn.Appearance = System.Windows.Forms.Appearance.Button;
+            this.sndbtn.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sndbtn.ForeColor = System.Drawing.Color.White;
+            this.sndbtn.Image = ((System.Drawing.Image)(resources.GetObject("sndbtn.Image")));
+            this.sndbtn.Location = new System.Drawing.Point(12, 123);
+            this.sndbtn.Name = "sndbtn";
+            this.sndbtn.Size = new System.Drawing.Size(129, 49);
+            this.sndbtn.TabIndex = 12;
+            this.sndbtn.Text = "On Music";
+            this.sndbtn.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.sndbtn.UseVisualStyleBackColor = true;
+            this.sndbtn.CheckedChanged += new System.EventHandler(this.sndbtn_CheckedChanged);
+            // 
             // Frm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -198,6 +214,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(892, 668);
+            this.Controls.Add(this.sndbtn);
             this.Controls.Add(this.lbl);
             this.Controls.Add(this.ResetBtn);
             this.Controls.Add(this.xtrabtn);
@@ -235,6 +252,7 @@
         private System.Windows.Forms.Button xtrabtn;
         private System.Windows.Forms.Button ResetBtn;
         private System.Windows.Forms.Label lbl;
+        private System.Windows.Forms.CheckBox sndbtn;
     }
 }
 

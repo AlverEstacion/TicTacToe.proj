@@ -14,9 +14,13 @@ namespace TicTacToe
     {
         String Btnvalue = "X";
         int counter = 0;
+        System.Media.SoundPlayer _BGM = new System.Media.SoundPlayer();
         public Frm1()
         {
             InitializeComponent();
+
+            _BGM.SoundLocation = "Anime lofi.wav";
+
         }
 
         private void Btn1_Click(object sender, EventArgs e)
@@ -735,6 +739,20 @@ namespace TicTacToe
             Btn7.Text = "";
             Btn8.Text = "";
             Btn9.Text = "";
+        }
+
+        private void sndbtn_CheckedChanged(object sender, EventArgs e)
+        {
+            if (sndbtn.Checked)
+            {
+                sndbtn.Text = "Off Music";
+                _BGM.Play();
+            }
+            else
+            {
+                sndbtn.Text = "On Music";
+                _BGM.Stop();
+            }
         }
     }
 }
